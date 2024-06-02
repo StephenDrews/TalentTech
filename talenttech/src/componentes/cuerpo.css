@@ -1,0 +1,99 @@
+/* .body{
+    background-color: rgb(213, 227, 222);
+} */
+
+.containerPag{
+    background-color: rgb(5, 26, 58);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+    padding: 8px;
+    height: 30%;
+}
+
+
+.banneryLogoPag {
+    width: 40%; /* Ancho del banner igual al ancho del contenedor */
+    margin-left: 30rem;
+    max-width: 30%; /* Ancho máximo del banner igual al ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Mostrar como bloque */
+    margin-top: 20px; /* Margen superior de 20px */
+    margin-bottom: 10px; /* Margen inferior de 20px */
+  }
+
+.columIzquierda{
+    background-color: rgb(229, 231, 235);
+    padding: 16px;
+    width: 280px; /* Ancho del contenedor */
+    height: 100%; /* Altura del contenedor */
+    position: fixed; /* Fija la posición del contenedor */
+    top: 0; /* Alinea el contenedor en la parte superior */
+    left: 0; /* Alinea el contenedor a la izquierda */
+    overflow-y: auto; /* Agrega scroll vertical si es necesario */
+}
+
+
+
+.sesionPerfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    width: 800 rem;
+    background-color: #fff; /* Color de fondo para resaltar el contenido */
+
+    
+}
+
+.perfilPhoto{
+    width: 50px; /* Ancho de la foto de perfil */
+    height: 40px; /* Altura de la foto de perfil */
+    border-radius: 50%; /* Forma redondeada para la foto de perfil */
+    margin-right: 16px; /* Espaciado a la derecha de la foto de perfil */
+}
+
+.textoPerfil{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-display: center;
+  padding: auto;
+  margin: auto;
+
+}
+
+.perfilInformacion{
+    flex: 1; /* Ocupa el espacio restante en la fila */
+}
+
+.divider{
+    margin-top: 20px;
+}
+
+
+/* Clase menunavegacion */
+.sesionDeNavegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    height: 90px;
+  }
+  
+  .iconosTextos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre cada icono y texto */
+  }
+  
+  .iconosTextos svg {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  .iconosTextos span {
+    font-size: 16px; /* Tamaño de fuente del texto */
+  }
+
