@@ -2,28 +2,63 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
-    margin-left: 400px;
-    height: 100vh;
+    align-items: flex-end;
+    margin-left: 205px;
+    height: 95;
+    /* border: 3px solid black; */
+    margin-top: 10px;
     
 }
 
 /* Estilos para el acordeón */
 .acordeonPag {
-    width: 80%; /* Ancho del acordeón */
-    max-width: 900%; /* Ancho máximo del acordeón */
+    width: 91%; /* Ancho del acordeón */
+    max-width: 200%; /* Ancho máximo del acordeón */
     padding: 20px; /* Espaciado interno del acordeón */
-    background-color: #f8f9fa; /* Color de fondo del acordeón */
-    border: 1px solid #ccc; /* Borde del acordeón */
-    
+    background-color:  rgb(2, 15, 33); /* Color de fondo del acordeón */
+    /* border: 1px solid #ccc;  */
+    height: 90%;
 }
 
 
   
 .textoFullStack{
-    display: flex;
+    color: antiquewhite;
     margin-left: 7px;
-    margin-bottom:12%;
+    margin-bottom: 4%;
     text-align: left;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+
+.textoFullStack1{
+    color: antiquewhite;
+    margin-left: 7px;
+    margin-bottom: 0%;
+    text-align: left;
+    font-size: 30;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.carrouselPag{
+    background-color:  rgb(2, 15, 33);
+    /* border: 6px solid, black; */
+    margin-top: 10px;
+    gap: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.tabPag{
+    width: 89%;
+    padding: auto;
+}
+
+.mb-3{
+    background-color: rgb(2, 15, 33);
+    color: rgb(255, 255, 255);
+    font-size: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

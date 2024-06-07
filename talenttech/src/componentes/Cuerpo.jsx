@@ -1,20 +1,34 @@
 import React from "react";
+
+//Importacion del Estilos, Componentes cuerpo.css
 import "../componentes/cuerpo.css";
-//Importacion de banner y logo
+
+//Importacion de Imagenes, Assets, banner y logo
 import Banner from "../assets/img/logo_talento.svg";
 import Logo from "../assets/img/tec-presidencia.svg";
-//Importacion de Profile
+
+//Importacion de Imagenes Profile
 import Profile from "../assets/img/profile.svg";
-//Importacion de Button
+
+// Importacion Las pripiedades Button de react-bootstrap
 import { Button } from "react-bootstrap"; // Importa el componente Button de react-bootstrap
+
+//Importacion Componentes del modulo Ticket
+import Tiket from "../componentes/Tiket.jsx";
+import Barralogros from "../componentes/Barralogros.jsx";
+
+
+
+
 
 
 function Cuerpo() {
   return (
     <div className="containerPag" responsive>
-      <img src={Banner} alt=""  className="banneryLogoPag"  />
+      <img src={Banner} alt="" className="banneryLogoPag" />
       <img src={Logo} alt="" className="banneryLogoPag" />
 
+      {/* Sesion del contenedor de lado izquierda */}
       <div className="columIzquierda" responsive>
         <div className="sesionPerfil">
           {/* Sesion de imagen */}
@@ -23,6 +37,9 @@ function Cuerpo() {
           <div className="perfilInformacion">
             <h2 className="textoPerfil">CAMILA STEFANY MIKAN</h2>
             <p className="textoPerfil">camilitamikan@gmail.com</p>
+
+            {/* Sesion de llamado al modulo del componente BarraLogos */}
+            <Barralogros />
           </div>
         </div>
 
@@ -141,8 +158,10 @@ function Cuerpo() {
               <span> Preguntas Frecuentes</span>
             </div>
 
-            {/* SESION DE Boton INICIO SESION */}
+            {/* Salto de linea */}
+            <br />
 
+            {/* SESION DE Boton INICIO SESION */}
             <div className="SesiondeBotonCerrarSesion">
               <Button variant="outline-danger">
                 {" "}
@@ -161,11 +180,21 @@ function Cuerpo() {
                 </svg>{" "}
                 Cerrar Sesión
               </Button>
+
+
+              
+              {/* Salto de linea */}
+              <br />
+              <br />
+
+              {/* Llamar solo el modulo  Tiket*/}
+              <Tiket />
             </div>
           </div>
         </div>
       </div>
     </div>
+    
   );
 }
 

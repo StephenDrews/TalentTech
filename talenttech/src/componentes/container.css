@@ -1,0 +1,40 @@
+/* Clase de estilo bodyContenedores */
+.bodyContenedores{
+    width: 100%;
+    display: flexbox;
+    height: 100%;
+    border: 10px solid, rgb(28, 29, 30);
+    background: rgb(2, 15, 33);
+    padding: 30px;
+}
+
+/* Estilos para los elementos dentro del contenedor */
+.user-profile {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+  }
+  
+  .logo {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+  }
+  
+  .navigation-menu {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 2 / 3; /* Ocupa la segunda fila */
+  }
+  
+  .carousel {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    grid-row: 2 / 3; /* Ocupa la segunda fila */
+  }
+  
+  .accordion {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 3 / 4; /* Ocupa la tercera fila */
+  }
+  
+  .secondary-menu {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    grid-row: 3 / 4; /* Ocupa la tercera fila */
+  }
